@@ -1,0 +1,12 @@
+[
+{
+  "directory": "/home/learn/lesson/proj/chat/build/src/server",
+  "command": "/usr/bin/g++   -I/home/learn/lesson/proj/chat/include -I/home/learn/lesson/proj/chat/include/server  -g -g   -o CMakeFiles/ChatServer.dir/chatserver.cpp.o -c /home/learn/lesson/proj/chat/src/server/chatserver.cpp",
+  "file": "/home/learn/lesson/proj/chat/src/server/chatserver.cpp"
+},
+{
+  "directory": "/home/learn/lesson/proj/chat/build/src/server",
+  "command": "/usr/bin/g++   -I/home/learn/lesson/proj/chat/include -I/home/learn/lesson/proj/chat/include/server  -g -g   -o CMakeFiles/ChatServer.dir/main.cpp.o -c /home/learn/lesson/proj/chat/src/server/main.cpp",
+  "file": "/home/learn/lesson/proj/chat/src/server/main.cpp"
+}
+]
