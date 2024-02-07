@@ -27,6 +27,11 @@ bool MySQL::connect()
     {
         // C/C++代码默认的编码字符是ASCII 如果不设置 从MySQL上拉下来的中文显示乱码
         mysql_query(_conn, "set names gbk");
+        LOG_INFO << "connection mysql success!";
+    }
+    else
+    {
+        LOG_INFO << "connection mysql fail!";
     }
     return p;
 }
@@ -49,4 +54,10 @@ MYSQL_RES *MySQL::query(string sql)
         return nullptr;
     }
     return mysql_use_result(_conn);
+}
+
+// 获取连接
+MYSQL* MySQL::getConnection()
+{
+    return _conn;
 }

@@ -23,6 +23,8 @@ muduo/net/TcpConnection.h
 -
 json.hpp
 ../include/server/json.hpp
+userModel.hpp
+../include/server/userModel.hpp
 
 ../include/server/db/db.h
 mysql/mysql.h
@@ -31,6 +33,14 @@ string
 -
 
 ../include/server/public.hpp
+
+../include/server/user.hpp
+string
+-
+
+../include/server/userModel.hpp
+user.hpp
+../include/server/user.hpp
 
 ../thirdparty/json.hpp
 algorithm
@@ -391,6 +401,14 @@ muduo/base/Logging.h
 /home/learn/lesson/proj/chat/src/server/main.cpp
 chatserver.hpp
 /home/learn/lesson/proj/chat/src/server/chatserver.hpp
+iostream
+-
+
+/home/learn/lesson/proj/chat/src/server/usermodel.cpp
+userModel.hpp
+/home/learn/lesson/proj/chat/src/server/userModel.hpp
+db.h
+/home/learn/lesson/proj/chat/src/server/db.h
 iostream
 -
 
