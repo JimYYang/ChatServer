@@ -6,5 +6,5 @@ CXX_FLAGS = -g -g
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/learn/lesson/proj/chat/include -I/home/learn/lesson/proj/chat/include/server 
+CXX_INCLUDES = -I/home/learn/lesson/proj/chat/include -I/home/learn/lesson/proj/chat/include/server -I/home/learn/lesson/proj/chat/thirdparty 
 
