@@ -24,6 +24,12 @@ muduo/net/TcpConnection.h
 json.hpp
 ../include/server/json.hpp
 
+../include/server/db/db.h
+mysql/mysql.h
+-
+string
+-
+
 ../include/server/public.hpp
 
 ../thirdparty/json.hpp
@@ -373,6 +379,12 @@ chatservice.hpp
 /home/learn/lesson/proj/chat/src/server/chatservice.hpp
 public.hpp
 /home/learn/lesson/proj/chat/src/server/public.hpp
+muduo/base/Logging.h
+-
+
+/home/learn/lesson/proj/chat/src/server/db/db.cpp
+db.h
+/home/learn/lesson/proj/chat/src/server/db/db.h
 muduo/base/Logging.h
 -
 
