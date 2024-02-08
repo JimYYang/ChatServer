@@ -16,6 +16,11 @@
 },
 {
   "directory": "/home/learn/lesson/proj/chat/build/src/server",
+  "command": "/usr/bin/g++   -I/home/learn/lesson/proj/chat/include -I/home/learn/lesson/proj/chat/include/server -I/home/learn/lesson/proj/chat/include/server/db -I/home/learn/lesson/proj/chat/thirdparty  -g -g   -o CMakeFiles/ChatServer.dir/offlinemessagemodel.cpp.o -c /home/learn/lesson/proj/chat/src/server/offlinemessagemodel.cpp",
+  "file": "/home/learn/lesson/proj/chat/src/server/offlinemessagemodel.cpp"
+},
+{
+  "directory": "/home/learn/lesson/proj/chat/build/src/server",
   "command": "/usr/bin/g++   -I/home/learn/lesson/proj/chat/include -I/home/learn/lesson/proj/chat/include/server -I/home/learn/lesson/proj/chat/include/server/db -I/home/learn/lesson/proj/chat/thirdparty  -g -g   -o CMakeFiles/ChatServer.dir/usermodel.cpp.o -c /home/learn/lesson/proj/chat/src/server/usermodel.cpp",
   "file": "/home/learn/lesson/proj/chat/src/server/usermodel.cpp"
 },

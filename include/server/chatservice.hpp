@@ -8,6 +8,7 @@
 #include <mutex>
 #include "json.hpp"
 #include "userModel.hpp"
+#include "offlinemessagemodel.hpp"
 
 using namespace std;
 using namespace muduo;
@@ -51,8 +52,12 @@ private:
 
     // 定义互斥锁 保证_userConnMap的线程安全
     mutex _connMutex;
+
     // 数据操作类对象
     UserModel _userModel;
+    
+    // 离线消息操作对象
+    OfflineMsgModel _offlineMsgModel;
 };
 
 #endif
