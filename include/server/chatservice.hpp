@@ -40,6 +40,9 @@ public:
 
     // 处理客户端异常退出
     void clientCloseException(const TcpConnectionPtr &conn);
+
+    // 服务器异常 业务重置方法
+    void reset();
 private:
     // 单例模式 构造函数私有化
     ChatService();

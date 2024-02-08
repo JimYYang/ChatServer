@@ -166,3 +166,10 @@ void ChatService::oneChat(const TcpConnectionPtr &conn, json &js, Timestamp Time
     // 存储离线消息不需要线程安全
     _offlineMsgModel.insert(toid, js.dump());
 }
+
+// 服务器异常 业务重置方法
+void ChatService::reset()
+{
+    // 把online的用户设置为offline
+    _userModel.resetState();
+}

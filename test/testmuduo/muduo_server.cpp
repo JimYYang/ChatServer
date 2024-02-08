@@ -43,7 +43,8 @@ public:
     }
 
     // 开启事件循环
-    void start() {
+    void start()
+    {
         _server.start();
     }
 
@@ -53,15 +54,13 @@ private:
     {
         if (conn->connected())
         {
-            cout << conn->peerAddress().toIpPort() << " -> " <<
-                conn->localAddress().toIpPort()
-                << " state:online" << endl;
+            cout << conn->peerAddress().toIpPort() << " -> " << conn->localAddress().toIpPort()
+                 << " state:online" << endl;
         }
-        else 
+        else
         {
-            cout << conn->peerAddress().toIpPort() << " -> " <<
-                conn->localAddress().toIpPort()
-                << " state:offline" << endl;
+            cout << conn->peerAddress().toIpPort() << " -> " << conn->localAddress().toIpPort()
+                 << " state:offline" << endl;
             conn->shutdown(); // close(fd);
             // _loop->quit();
         }
@@ -69,8 +68,8 @@ private:
 
     // 专门处理用户的读写事件
     void onMessage(const TcpConnectionPtr &conn, // 连接
-                   Buffer *buffer, // 缓冲区 
-                   Timestamp Time) // 接收到数据的时间信息
+                   Buffer *buffer,               // 缓冲区
+                   Timestamp Time)               // 接收到数据的时间信息
     {
         string buf = buffer->retrieveAllAsString();
         cout << "recv data:" << buf << " time:" << Time.toString() << endl;
@@ -80,13 +79,12 @@ private:
     EventLoop *_loop;  // #2 epoll
 };
 
-
 int main()
 {
     EventLoop loop; // epoll
     InetAddress addr("127.0.0.1", 6000);
     ChatServer server(&loop, addr, "ChatServer");
     server.start(); // listenfd epoll_ctl=>epoll
-    loop.loop(); // epoll_wait以阻塞方式等待新用户连接 或者已连接用户的读写事件等
+    loop.loop();    // epoll_wait以阻塞方式等待新用户连接 或者已连接用户的读写事件等
     return 0;
 }
