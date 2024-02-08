@@ -29,12 +29,20 @@ userModel.hpp
 ../include/server/userModel.hpp
 offlinemessagemodel.hpp
 ../include/server/offlinemessagemodel.hpp
+friendmodel.hpp
+../include/server/friendmodel.hpp
 
 ../include/server/db/db.h
 mysql/mysql.h
 -
 string
 -
+
+../include/server/friendmodel.hpp
+vector
+-
+user.hpp
+../include/server/user.hpp
 
 ../include/server/offlinemessagemodel.hpp
 string
@@ -409,6 +417,12 @@ db.h
 /home/learn/lesson/proj/chat/src/server/db/db.h
 muduo/base/Logging.h
 -
+
+/home/learn/lesson/proj/chat/src/server/friendmodel.cpp
+friendmodel.hpp
+/home/learn/lesson/proj/chat/src/server/friendmodel.hpp
+db.h
+/home/learn/lesson/proj/chat/src/server/db.h
 
 /home/learn/lesson/proj/chat/src/server/main.cpp
 chatserver.hpp

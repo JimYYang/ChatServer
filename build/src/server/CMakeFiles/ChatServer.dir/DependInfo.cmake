@@ -7,6 +7,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/learn/lesson/proj/chat/src/server/chatserver.cpp" "/home/learn/lesson/proj/chat/build/src/server/CMakeFiles/ChatServer.dir/chatserver.cpp.o"
   "/home/learn/lesson/proj/chat/src/server/chatservice.cpp" "/home/learn/lesson/proj/chat/build/src/server/CMakeFiles/ChatServer.dir/chatservice.cpp.o"
   "/home/learn/lesson/proj/chat/src/server/db/db.cpp" "/home/learn/lesson/proj/chat/build/src/server/CMakeFiles/ChatServer.dir/db/db.cpp.o"
+  "/home/learn/lesson/proj/chat/src/server/friendmodel.cpp" "/home/learn/lesson/proj/chat/build/src/server/CMakeFiles/ChatServer.dir/friendmodel.cpp.o"
   "/home/learn/lesson/proj/chat/src/server/main.cpp" "/home/learn/lesson/proj/chat/build/src/server/CMakeFiles/ChatServer.dir/main.cpp.o"
   "/home/learn/lesson/proj/chat/src/server/offlinemessagemodel.cpp" "/home/learn/lesson/proj/chat/build/src/server/CMakeFiles/ChatServer.dir/offlinemessagemodel.cpp.o"
   "/home/learn/lesson/proj/chat/src/server/usermodel.cpp" "/home/learn/lesson/proj/chat/build/src/server/CMakeFiles/ChatServer.dir/usermodel.cpp.o"
