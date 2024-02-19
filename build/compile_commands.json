@@ -1,37 +1,42 @@
 [
 {
   "directory": "/home/learn/lesson/proj/chat/build/src/server",
-  "command": "/usr/bin/g++   -I/home/learn/lesson/proj/chat/include -I/home/learn/lesson/proj/chat/include/server -I/home/learn/lesson/proj/chat/include/server/db -I/home/learn/lesson/proj/chat/thirdparty  -g -g   -o CMakeFiles/ChatServer.dir/chatserver.cpp.o -c /home/learn/lesson/proj/chat/src/server/chatserver.cpp",
+  "command": "/usr/bin/g++   -I/home/learn/lesson/proj/chat/include -I/home/learn/lesson/proj/chat/include/server -I/home/learn/lesson/proj/chat/include/server/db -I/home/learn/lesson/proj/chat/include/server/model -I/home/learn/lesson/proj/chat/thirdparty  -g -g   -o CMakeFiles/ChatServer.dir/chatserver.cpp.o -c /home/learn/lesson/proj/chat/src/server/chatserver.cpp",
   "file": "/home/learn/lesson/proj/chat/src/server/chatserver.cpp"
 },
 {
   "directory": "/home/learn/lesson/proj/chat/build/src/server",
-  "command": "/usr/bin/g++   -I/home/learn/lesson/proj/chat/include -I/home/learn/lesson/proj/chat/include/server -I/home/learn/lesson/proj/chat/include/server/db -I/home/learn/lesson/proj/chat/thirdparty  -g -g   -o CMakeFiles/ChatServer.dir/chatservice.cpp.o -c /home/learn/lesson/proj/chat/src/server/chatservice.cpp",
+  "command": "/usr/bin/g++   -I/home/learn/lesson/proj/chat/include -I/home/learn/lesson/proj/chat/include/server -I/home/learn/lesson/proj/chat/include/server/db -I/home/learn/lesson/proj/chat/include/server/model -I/home/learn/lesson/proj/chat/thirdparty  -g -g   -o CMakeFiles/ChatServer.dir/chatservice.cpp.o -c /home/learn/lesson/proj/chat/src/server/chatservice.cpp",
   "file": "/home/learn/lesson/proj/chat/src/server/chatservice.cpp"
 },
 {
   "directory": "/home/learn/lesson/proj/chat/build/src/server",
-  "command": "/usr/bin/g++   -I/home/learn/lesson/proj/chat/include -I/home/learn/lesson/proj/chat/include/server -I/home/learn/lesson/proj/chat/include/server/db -I/home/learn/lesson/proj/chat/thirdparty  -g -g   -o CMakeFiles/ChatServer.dir/friendmodel.cpp.o -c /home/learn/lesson/proj/chat/src/server/friendmodel.cpp",
-  "file": "/home/learn/lesson/proj/chat/src/server/friendmodel.cpp"
-},
-{
-  "directory": "/home/learn/lesson/proj/chat/build/src/server",
-  "command": "/usr/bin/g++   -I/home/learn/lesson/proj/chat/include -I/home/learn/lesson/proj/chat/include/server -I/home/learn/lesson/proj/chat/include/server/db -I/home/learn/lesson/proj/chat/thirdparty  -g -g   -o CMakeFiles/ChatServer.dir/main.cpp.o -c /home/learn/lesson/proj/chat/src/server/main.cpp",
+  "command": "/usr/bin/g++   -I/home/learn/lesson/proj/chat/include -I/home/learn/lesson/proj/chat/include/server -I/home/learn/lesson/proj/chat/include/server/db -I/home/learn/lesson/proj/chat/include/server/model -I/home/learn/lesson/proj/chat/thirdparty  -g -g   -o CMakeFiles/ChatServer.dir/main.cpp.o -c /home/learn/lesson/proj/chat/src/server/main.cpp",
   "file": "/home/learn/lesson/proj/chat/src/server/main.cpp"
 },
 {
   "directory": "/home/learn/lesson/proj/chat/build/src/server",
-  "command": "/usr/bin/g++   -I/home/learn/lesson/proj/chat/include -I/home/learn/lesson/proj/chat/include/server -I/home/learn/lesson/proj/chat/include/server/db -I/home/learn/lesson/proj/chat/thirdparty  -g -g   -o CMakeFiles/ChatServer.dir/offlinemessagemodel.cpp.o -c /home/learn/lesson/proj/chat/src/server/offlinemessagemodel.cpp",
-  "file": "/home/learn/lesson/proj/chat/src/server/offlinemessagemodel.cpp"
-},
-{
-  "directory": "/home/learn/lesson/proj/chat/build/src/server",
-  "command": "/usr/bin/g++   -I/home/learn/lesson/proj/chat/include -I/home/learn/lesson/proj/chat/include/server -I/home/learn/lesson/proj/chat/include/server/db -I/home/learn/lesson/proj/chat/thirdparty  -g -g   -o CMakeFiles/ChatServer.dir/usermodel.cpp.o -c /home/learn/lesson/proj/chat/src/server/usermodel.cpp",
-  "file": "/home/learn/lesson/proj/chat/src/server/usermodel.cpp"
-},
-{
-  "directory": "/home/learn/lesson/proj/chat/build/src/server",
-  "command": "/usr/bin/g++   -I/home/learn/lesson/proj/chat/include -I/home/learn/lesson/proj/chat/include/server -I/home/learn/lesson/proj/chat/include/server/db -I/home/learn/lesson/proj/chat/thirdparty  -g -g   -o CMakeFiles/ChatServer.dir/db/db.cpp.o -c /home/learn/lesson/proj/chat/src/server/db/db.cpp",
+  "command": "/usr/bin/g++   -I/home/learn/lesson/proj/chat/include -I/home/learn/lesson/proj/chat/include/server -I/home/learn/lesson/proj/chat/include/server/db -I/home/learn/lesson/proj/chat/include/server/model -I/home/learn/lesson/proj/chat/thirdparty  -g -g   -o CMakeFiles/ChatServer.dir/db/db.cpp.o -c /home/learn/lesson/proj/chat/src/server/db/db.cpp",
   "file": "/home/learn/lesson/proj/chat/src/server/db/db.cpp"
+},
+{
+  "directory": "/home/learn/lesson/proj/chat/build/src/server",
+  "command": "/usr/bin/g++   -I/home/learn/lesson/proj/chat/include -I/home/learn/lesson/proj/chat/include/server -I/home/learn/lesson/proj/chat/include/server/db -I/home/learn/lesson/proj/chat/include/server/model -I/home/learn/lesson/proj/chat/thirdparty  -g -g   -o CMakeFiles/ChatServer.dir/model/friendmodel.cpp.o -c /home/learn/lesson/proj/chat/src/server/model/friendmodel.cpp",
+  "file": "/home/learn/lesson/proj/chat/src/server/model/friendmodel.cpp"
+},
+{
+  "directory": "/home/learn/lesson/proj/chat/build/src/server",
+  "command": "/usr/bin/g++   -I/home/learn/lesson/proj/chat/include -I/home/learn/lesson/proj/chat/include/server -I/home/learn/lesson/proj/chat/include/server/db -I/home/learn/lesson/proj/chat/include/server/model -I/home/learn/lesson/proj/chat/thirdparty  -g -g   -o CMakeFiles/ChatServer.dir/model/groupmodel.cpp.o -c /home/learn/lesson/proj/chat/src/server/model/groupmodel.cpp",
+  "file": "/home/learn/lesson/proj/chat/src/server/model/groupmodel.cpp"
+},
+{
+  "directory": "/home/learn/lesson/proj/chat/build/src/server",
+  "command": "/usr/bin/g++   -I/home/learn/lesson/proj/chat/include -I/home/learn/lesson/proj/chat/include/server -I/home/learn/lesson/proj/chat/include/server/db -I/home/learn/lesson/proj/chat/include/server/model -I/home/learn/lesson/proj/chat/thirdparty  -g -g   -o CMakeFiles/ChatServer.dir/model/offlinemessagemodel.cpp.o -c /home/learn/lesson/proj/chat/src/server/model/offlinemessagemodel.cpp",
+  "file": "/home/learn/lesson/proj/chat/src/server/model/offlinemessagemodel.cpp"
+},
+{
+  "directory": "/home/learn/lesson/proj/chat/build/src/server",
+  "command": "/usr/bin/g++   -I/home/learn/lesson/proj/chat/include -I/home/learn/lesson/proj/chat/include/server -I/home/learn/lesson/proj/chat/include/server/db -I/home/learn/lesson/proj/chat/include/server/model -I/home/learn/lesson/proj/chat/thirdparty  -g -g   -o CMakeFiles/ChatServer.dir/model/usermodel.cpp.o -c /home/learn/lesson/proj/chat/src/server/model/usermodel.cpp",
+  "file": "/home/learn/lesson/proj/chat/src/server/model/usermodel.cpp"
 }
 ]

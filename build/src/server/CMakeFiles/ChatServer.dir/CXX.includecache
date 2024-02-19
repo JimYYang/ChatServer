@@ -6,6 +6,8 @@
 
 #IncludeRegexTransform: 
 
+../include/public.hpp
+
 ../include/server/chatserver.hpp
 muduo/net/TcpServer.h
 -
@@ -31,6 +33,8 @@ offlinemessagemodel.hpp
 ../include/server/offlinemessagemodel.hpp
 friendmodel.hpp
 ../include/server/friendmodel.hpp
+groupmodel.hpp
+../include/server/groupmodel.hpp
 
 ../include/server/db/db.h
 mysql/mysql.h
@@ -38,27 +42,45 @@ mysql/mysql.h
 string
 -
 
-../include/server/friendmodel.hpp
+../include/server/model/friendmodel.hpp
 vector
 -
 user.hpp
-../include/server/user.hpp
+../include/server/model/user.hpp
 
-../include/server/offlinemessagemodel.hpp
+../include/server/model/group.hpp
+groupuser.hpp
+../include/server/model/groupuser.hpp
 string
 -
 vector
 -
 
-../include/server/public.hpp
+../include/server/model/groupmodel.hpp
+group.hpp
+../include/server/model/group.hpp
+string
+-
+vector
+-
 
-../include/server/user.hpp
+../include/server/model/groupuser.hpp
+user.hpp
+../include/server/model/user.hpp
+
+../include/server/model/offlinemessagemodel.hpp
+string
+-
+vector
+-
+
+../include/server/model/user.hpp
 string
 -
 
-../include/server/userModel.hpp
+../include/server/model/userModel.hpp
 user.hpp
-../include/server/user.hpp
+../include/server/model/user.hpp
 
 ../thirdparty/json.hpp
 algorithm
@@ -418,12 +440,6 @@ db.h
 muduo/base/Logging.h
 -
 
-/home/learn/lesson/proj/chat/src/server/friendmodel.cpp
-friendmodel.hpp
-/home/learn/lesson/proj/chat/src/server/friendmodel.hpp
-db.h
-/home/learn/lesson/proj/chat/src/server/db.h
-
 /home/learn/lesson/proj/chat/src/server/main.cpp
 chatserver.hpp
 /home/learn/lesson/proj/chat/src/server/chatserver.hpp
@@ -434,17 +450,29 @@ iostream
 signal.h
 -
 
-/home/learn/lesson/proj/chat/src/server/offlinemessagemodel.cpp
-offlinemessagemodel.hpp
-/home/learn/lesson/proj/chat/src/server/offlinemessagemodel.hpp
+/home/learn/lesson/proj/chat/src/server/model/friendmodel.cpp
+friendmodel.hpp
+/home/learn/lesson/proj/chat/src/server/model/friendmodel.hpp
 db.h
-/home/learn/lesson/proj/chat/src/server/db.h
+/home/learn/lesson/proj/chat/src/server/model/db.h
 
-/home/learn/lesson/proj/chat/src/server/usermodel.cpp
-userModel.hpp
-/home/learn/lesson/proj/chat/src/server/userModel.hpp
+/home/learn/lesson/proj/chat/src/server/model/groupmodel.cpp
+groupmodel.hpp
+/home/learn/lesson/proj/chat/src/server/model/groupmodel.hpp
 db.h
-/home/learn/lesson/proj/chat/src/server/db.h
+/home/learn/lesson/proj/chat/src/server/model/db.h
+
+/home/learn/lesson/proj/chat/src/server/model/offlinemessagemodel.cpp
+offlinemessagemodel.hpp
+/home/learn/lesson/proj/chat/src/server/model/offlinemessagemodel.hpp
+db.h
+/home/learn/lesson/proj/chat/src/server/model/db.h
+
+/home/learn/lesson/proj/chat/src/server/model/usermodel.cpp
+userModel.hpp
+/home/learn/lesson/proj/chat/src/server/model/userModel.hpp
+db.h
+/home/learn/lesson/proj/chat/src/server/model/db.h
 iostream
 -
 
