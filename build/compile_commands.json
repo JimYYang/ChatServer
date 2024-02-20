@@ -38,5 +38,10 @@
   "directory": "/home/learn/lesson/proj/chat/build/src/server",
   "command": "/usr/bin/g++   -I/home/learn/lesson/proj/chat/include -I/home/learn/lesson/proj/chat/include/server -I/home/learn/lesson/proj/chat/include/server/db -I/home/learn/lesson/proj/chat/include/server/model -I/home/learn/lesson/proj/chat/thirdparty  -g -g   -o CMakeFiles/ChatServer.dir/model/usermodel.cpp.o -c /home/learn/lesson/proj/chat/src/server/model/usermodel.cpp",
   "file": "/home/learn/lesson/proj/chat/src/server/model/usermodel.cpp"
+},
+{
+  "directory": "/home/learn/lesson/proj/chat/build/src/client",
+  "command": "/usr/bin/g++   -I/home/learn/lesson/proj/chat/include -I/home/learn/lesson/proj/chat/include/server -I/home/learn/lesson/proj/chat/include/server/db -I/home/learn/lesson/proj/chat/include/server/model -I/home/learn/lesson/proj/chat/thirdparty  -g -g   -o CMakeFiles/ChatClient.dir/main.cpp.o -c /home/learn/lesson/proj/chat/src/client/main.cpp",
+  "file": "/home/learn/lesson/proj/chat/src/client/main.cpp"
 }
 ]
