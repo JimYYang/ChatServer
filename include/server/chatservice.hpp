@@ -11,6 +11,7 @@
 #include "offlinemessagemodel.hpp"
 #include "friendmodel.hpp"
 #include "groupmodel.hpp"
+#include "redis.hpp"
 
 using namespace std;
 using namespace muduo;
@@ -47,6 +48,9 @@ public:
     // 群组聊天业务
     void groupChat(const TcpConnectionPtr &conn, json &js, Timestamp time);
 
+    // 处理注销业务
+    void loginout(const TcpConnectionPtr &conn, json &js, Timestamp time);
+
     // 获取消息对应的处理器
     MsgHandler getHandler(int msgid);
 
@@ -55,6 +59,9 @@ public:
 
     // 服务器异常 业务重置方法
     void reset();
+    
+    // 从redis消息队列中获取订阅的消息
+    void handleRedisSubscribeMessage(int, string);
 
 private:
     // 单例模式 构造函数私有化
@@ -80,6 +87,8 @@ private:
     
     // 群组业务对象
     GroupModel _groupModel;
+    // Redis操作对象
+    Redis _redis;
 };
 
 #endif
